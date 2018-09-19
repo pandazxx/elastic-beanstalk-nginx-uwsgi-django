@@ -17,5 +17,10 @@ ALLOWED_HOSTS = [
     '*'
 ]
 
+INSTALLED_APPS = [
+    'ebsample_app.apps.EbsampleAppConfig',
+    'grappelli',
+] + INSTALLED_APPS
+
 
 STATIC_ROOT = project_root('static')
