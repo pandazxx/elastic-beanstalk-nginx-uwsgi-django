@@ -1,9 +1,7 @@
 # -*- coding: UTF-8 -*-
 
-
-
 import environ
-from base_settings import *
+from .base_settings import *
 
 
 env = environ.Env(
