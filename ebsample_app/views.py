@@ -6,3 +6,6 @@ from django.http import HttpResponse
 
 def helloworld(request):
     return HttpResponse("Helloworld!!!")
+
+def index(request):
+    return render(request, 'index.html', context={'hello_message': 'ttt'})
